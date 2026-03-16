@@ -4,10 +4,10 @@ Official engineering platform and personal developer hub for **Raven Milosh**.
 
 This project serves as:
 
-* A **developer portfolio**
-* An **engineering blog**
-* A **technical experimentation lab**
-* A **future extensible developer platform**
+- A **developer portfolio**
+- An **engineering blog**
+- A **technical experimentation lab**
+- A **future extensible developer platform**
 
 The repository is intentionally designed to be **AI-assisted development friendly**, meaning its architecture, documentation, and conventions are structured so autonomous agents or developer copilots can safely contribute improvements over time.
 
@@ -19,25 +19,25 @@ The repository is intentionally designed to be **AI-assisted development friendl
 
 The project emphasizes:
 
-* Performance
-* Security
-* Maintainability
-* Long-term scalability
-* AI-assisted development
+- Performance
+- Security
+- Maintainability
+- Long-term scalability
+- AI-assisted development
 
 Primary public features:
 
-* Developer landing page
-* Engineering blog
-* Technical notes
-* Contact system
+- Developer landing page
+- Engineering blog
+- Technical notes
+- Contact system
 
 Private features:
 
-* Admin dashboard
-* Content management
-* Message management
-* Future developer tools
+- Admin dashboard
+- Content management
+- Message management
+- Future developer tools
 
 ---
 
@@ -49,9 +49,9 @@ ravenmilosh.dev
 
 Infrastructure will be managed through:
 
-* DNS
-* Edge network
-* Web Application Firewall (WAF)
+- DNS
+- Edge network
+- Web Application Firewall (WAF)
 
 ---
 
@@ -61,10 +61,10 @@ This project is released under the **Apache License 2.0**.
 
 Why Apache 2.0:
 
-* Allows open collaboration
-* Protects contributors
-* Includes patent protection
-* Enables future commercial evolution of the project
+- Allows open collaboration
+- Protects contributors
+- Includes patent protection
+- Enables future commercial evolution of the project
 
 ---
 
@@ -94,10 +94,10 @@ Supabase
 
 Supabase provides:
 
-* PostgreSQL database
-* Authentication system
-* Storage
-* REST APIs
+- PostgreSQL database
+- Authentication system
+- Storage
+- REST APIs
 
 Client Library
 
@@ -134,21 +134,36 @@ Vue components will be used as Astro Islands for interactive UI elements.
 # Architecture Overview
 
 Internet
-│
+
+⬇️
+
 Cloudflare DNS + WAF
-│
+
+⬇️
+
 Cloudflare Pages (Edge Deployment)
-│
+
+⬇️
+
 Astro Application
-│
-├── Static Content (MDX Blog)
-├── Interactive UI (Vue Islands)
-├── API Endpoints
-│
-└── Supabase Backend
-├── PostgreSQL Database
-├── Authentication
-└── Storage
+
+⬇️
+
+➡️ Static Content (MDX Blog)
+
+➡️ Interactive UI (Vue Islands)
+
+➡️ API Endpoints
+
+⬇️
+
+➡️ Supabase Backend
+
+➡️ PostgreSQL Database
+
+➡️ Authentication
+
+➡️ Storage
 
 ---
 
@@ -217,11 +232,11 @@ Content written using MDX.
 
 Advantages of file-based blog content:
 
-* Git version control
-* Zero database dependency
-* Maximum performance
-* SEO optimized
-* Easy long-term archival
+- Git version control
+- Zero database dependency
+- Maximum performance
+- SEO optimized
+- Easy long-term archival
 
 ---
 
@@ -284,11 +299,11 @@ Restricted via authentication.
 
 Admin capabilities planned:
 
-* Manage blog content
-* Review contact messages
-* Manage notes
-* View analytics
-* Manage platform data
+- Manage blog content
+- Review contact messages
+- Manage notes
+- View analytics
+- Manage platform data
 
 The dashboard architecture is designed to allow future **multi-user support**.
 
@@ -310,10 +325,10 @@ Edge APIs using Cloudflare Workers if scaling requirements increase.
 
 API responsibilities:
 
-* Secure communication with Supabase
-* Form submissions
-* Dashboard actions
-* Data processing
+- Secure communication with Supabase
+- Form submissions
+- Dashboard actions
+- Data processing
 
 ---
 
@@ -333,10 +348,10 @@ Edge Deployment
 
 GitHub Actions responsibilities:
 
-* Install dependencies
-* Run build
-* Validate project structure
-* Trigger deployment
+- Install dependencies
+- Run build
+- Validate project structure
+- Trigger deployment
 
 ---
 
@@ -348,11 +363,11 @@ Cloudflare Pages
 
 Key benefits:
 
-* Global CDN
-* Edge performance
-* Built-in TLS
-* DDoS protection
-* WAF security
+- Global CDN
+- Edge performance
+- Built-in TLS
+- DDoS protection
+- WAF security
 
 Repository integration:
 
@@ -393,16 +408,16 @@ Agents interacting with this project should:
 
 Preferred agent contribution workflow:
 
-* Analyze architecture
-* Suggest improvements
-* Submit isolated changes
-* Maintain compatibility with the stack
+- Analyze architecture
+- Suggest improvements
+- Submit isolated changes
+- Maintain compatibility with the stack
 
 Agents must avoid modifying:
 
-* deployment configuration
-* authentication logic
-* database schema
+- deployment configuration
+- authentication logic
+- database schema
 
 without explicit documentation updates.
 
