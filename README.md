@@ -133,37 +133,17 @@ Vue components will be used as Astro Islands for interactive UI elements.
 
 # Architecture Overview
 
-Internet
-
-⬇️
-
-Cloudflare DNS + WAF
-
-⬇️
-
-Cloudflare Pages (Edge Deployment)
-
-⬇️
-
-Astro Application
-
-⬇️
-
-➡️ Static Content (MDX Blog)
-
-➡️ Interactive UI (Vue Islands)
-
-➡️ API Endpoints
-
-⬇️
-
-➡️ Supabase Backend
-
-➡️ PostgreSQL Database
-
-➡️ Authentication
-
-➡️ Storage
+- Internet
+  - Cloudflare DNS + WAF
+  - Cloudflare Pages (Edge Deployment)│
+  - Astro Application
+    - Static Content (MDX Blog)
+    - Interactive UI (Vue Islands)
+    - API Endpoints
+  - Supabase Backend
+  - PostgreSQL Database
+  - Authentication
+  - Storage
 
 ---
 
@@ -536,5 +516,4 @@ Developer community hub
 
 # Maintainer
 
-Raven Milosh
-Web Developer
+Marco A. Sánchez a.k.a Raven Milosh - Web Developer
