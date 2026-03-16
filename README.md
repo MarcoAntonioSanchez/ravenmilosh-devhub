@@ -135,7 +135,7 @@ Vue components will be used as Astro Islands for interactive UI elements.
 
 - Internet
   - Cloudflare DNS + WAF
-  - Cloudflare Pages (Edge Deployment)│
+  - Cloudflare Pages (Edge Deployment)
   - Astro Application
     - Static Content (MDX Blog)
     - Interactive UI (Vue Islands)
